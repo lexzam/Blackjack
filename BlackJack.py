@@ -32,7 +32,6 @@ def compare(user_score, computer_score):
         return "You lose"
 
 def clear_screen():
-    """Clear the console screen."""
     if os.name == 'nt':  # For Windows
         os.system('cls')
     else:  # For macOS/Linux
